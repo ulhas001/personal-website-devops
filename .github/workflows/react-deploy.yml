@@ -1,5 +1,4 @@
 name: ReactJs Frontend
-
 on:
   push:
     branches: [main]
