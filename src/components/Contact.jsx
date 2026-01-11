@@ -10,7 +10,7 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const mailtoLink = `mailto:ulhasbhalerao@email.com?subject=Contact from ${formData.name}&body=${formData.message}%0A%0AFrom: ${formData.email}`;
+        const mailtoLink = `mailto:bhalraoulhas01@gmail.com?subject=Contact from ${formData.name}&body=${formData.message}%0A%0AFrom: ${formData.email}`;
         window.location.href = mailtoLink;
     };
 
@@ -58,7 +58,7 @@ const Contact = () => {
                                     <div>
                                         <span className="text-terminal-purple">"email"</span>
                                         <span className="text-text-muted">: </span>
-                                        <span className="text-terminal-green">"ulhasbhalerao@email.com"</span>
+                                        <span className="text-terminal-green">"bhaleraoulhas01@gmail.com"</span>
                                     </div>
                                     <div>
                                         <span className="text-terminal-purple">"location"</span>
@@ -95,15 +95,7 @@ const Contact = () => {
                                     >
                                         <Linkedin className="w-4 h-4" />
                                     </motion.a>
-                                    <motion.a
-                                        href="https://twitter.com/ulhas_007"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="social-btn"
-                                        whileHover={{ y: -3 }}
-                                    >
-                                        <Twitter className="w-4 h-4" />
-                                    </motion.a>
+
                                 </div>
                             </div>
                         </motion.div>
